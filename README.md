@@ -1,6 +1,10 @@
-# NDS-df-guideLine
+# NDS-df-guideLine(v.0.0.1)
 
 QuickLab 진행 후에 On-premise 환경에서 GCP와 연동한 ETL 작업
+
+금일 실습한 프로젝트 관련 소스는 [](https://github.com/GoogleCloudPlatform/professional-services/tree/main/examples/dataflow-python-examples/batch-examples/cookbook-examples/pipelines) 에서 확인해볼 수 있습니다.
+
+github 관련해서 진행하다 안되시는것이 있으면 <gscloud94@gscdn.com> 으로 메일 부탁드립니다. 메일 주실 때는 `소스 코드`, `오류 내용` 등 해결에 도움이 될 수 있는 모든 사진을 부탁드리겠습니다.
 
 ## 다운로드 Pycharm or VsCode
 
@@ -79,6 +83,10 @@ export GOOGLE_APPLICATION_CREDENTIALS=[Service Account File Path]
 python 실행하는데 필요한 패키지를 설치합니다.
 
 ```
+$ cd NDS-DF-GUIDELINE
+$ sudo pip install virtualenv
+$ virtualenv -p python3 venv
+$ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 

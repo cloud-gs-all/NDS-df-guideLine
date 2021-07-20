@@ -77,10 +77,9 @@ def run(project, bucket, dataset):
         "allowJaggedRows": True,
         "allowQuotedNewlines": True,
     }
-    #schema = data_ingestion.schema_str
+    
     (Input
      | 'nds:totablerow' >> beam.Map(lambda fields: create_row(fields))
-     # | ''>> beam.Map(print)
      | 'nds:out' >> beam.io.WriteToBigQuery(
                 events_output, schema=schema,
                 additional_bq_parameters=additional_bq_parameters,

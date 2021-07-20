@@ -82,7 +82,7 @@ export GOOGLE_APPLICATION_CREDENTIALS=[Service Account File Path]
 
 ## nds-df-v0.1.py 실행
 
-python 실행하는데 필요한 패키지를 설치합니다.
+python 가상 환경으로 이동하고 실행하는데 필요한 패키지를 설치합니다.
 
 ```
 $ cd NDS-DF-GUIDELINE

@@ -1,0 +1,353 @@
+[
+    {
+      "mode": "NULLABLE",
+      "name": "sale_date",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "store_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "register_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "voucher_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "voucher_seq",
+      "type": "NUMERIC"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "product_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "sale_qty",
+      "type": "NUMERIC"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "sale_amount",
+      "type": "NUMERIC"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "sale_vat_amount",
+      "type": "NUMERIC"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "profit_amount",
+      "type": "NUMERIC"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "customer_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "mall_product_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "mall_flag",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "order_channel",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "mall_com_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "deli_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "order_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "mall_order_flag",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "mall_deli_flag",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "mall_order_cnt_flag",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "mall_deli_cnt_flag",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "rece_address",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "rece_detail_address",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "customer_cnt",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "order_cnt",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "post_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "deli_order",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "order_deli_date",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "sale_flag",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "org_order_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "picker_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "sale_hour",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "sold_stock_flag",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "card_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "payment_flag",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "vendor_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "purchase_type",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "sale_channel_flag",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "basic_amount",
+      "type": "NUMERIC"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "sold_stock_qty",
+      "type": "NUMERIC"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "order_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "real_order_flag",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "order_name",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "class_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "order_wanted_deli_date",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "region_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "picking_sold_flag",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "deli_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "coupon_flag",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "picking_sta_date",
+      "type": "DATETIME"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "picking_end_date",
+      "type": "DATETIME"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "order_deli_sta_date",
+      "type": "DATETIME"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "order_deli_end_date",
+      "type": "DATETIME"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "picking_time",
+      "type": "NUMERIC"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "order_time",
+      "type": "NUMERIC"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reserve_date",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "pro_option_value",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "order_deli_method",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "dong_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "offline_order_flag",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "add_order_org_order_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "deli_start_date",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "original_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "reserve_deli_order",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "voucher_code1",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "voucher_code2",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "group_region_id",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "member_code",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "sold_amount",
+      "type": "NUMERIC"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "replace_amount",
+      "type": "NUMERIC"
+    }
+  ]
+  

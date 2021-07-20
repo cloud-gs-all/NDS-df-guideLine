@@ -208,7 +208,7 @@ argv = [
     ]
 ```
 
-## dataflow 소스코드 작성
+## Dataflow 소스코드 작성
 
 `dataflow`를 실행시키기 위해서는 `apache-beam`을 기반으로 하고 있기 때문에 `apache-beam` 공식 문서를 보며 개발을 진행하셔야 합니다.
 

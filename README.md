@@ -54,7 +54,7 @@ clone 시 프로젝트 `Directory` 구조는 아래와 같습니다.
 $ gcloud init
 ```
 
-[Google Cloud SDK Docs](https://cloud.google.com/sdk/docs/install?hl=ko)
+[Google Cloud SDK Docs](https://cloud.google.com/sdk/docs/install?hl=ko) 참고 부탁드립니다.
 
 ## IAM 설정
 
@@ -72,7 +72,7 @@ $ vi ~./zshrc 혹은 vi ~/.bashrc
 export GOOGLE_APPLICATION_CREDENTIALS=[Service Account File Path]
 ```
 
-[IAM 설정 Docs](https://cloud.google.com/docs/authentication/getting-started)
+[IAM 설정 Docs](https://cloud.google.com/docs/authentication/getting-started) 참고 부탁드립니다.
 
 ## nds-df-v0.1.py 실행
 
@@ -193,6 +193,7 @@ Input = (pipeline
 소스 코드를 말아서 올릴 때 Dataflow 실행 시 `project명`, `job_names`, `save_main_session`, `staging_location`, `temp_location`, `runner`를 작성해 주어야 합니다.
 
 그 외 실행 옵션은 하기 문서에서 자세히 살펴볼 수 있습니다.
+
 [Cloud Dataflow 파이프라인 옵션 설정](https://www.google.com/search?q=dataflow+%EC%8B%A4%ED%96%89+%EB%8F%99%EC%9E%91+option&rlz=1C5CHFA_enKR907KR907&oq=dataflow+%EC%8B%A4%ED%96%89+%EB%8F%99%EC%9E%91+option&aqs=chrome..69i57j33i160.6237j0j4&sourceid=chrome&ie=UTF-8)
 
 ```python
@@ -214,6 +215,8 @@ argv = [
 세 가지 언어 `python`, `java`, `Go` 를 지원합니다.
 
 소스 코드가 간결하고 이해하기 쉬운 `python`으로 작성하는것을 추천 드립니다.
+
+그 외 자세한 내용은 하기 문서에서 자세히 살펴볼 수 있습니다.
 
 [Apache Beam Docs](https://beam.apache.org/documentation/runners/dataflow/)
 
